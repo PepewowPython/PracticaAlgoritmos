@@ -1,0 +1,136 @@
+# =========================================
+# APUNTES SOBRE ALGORITMOS CON PSEUDOCÓDIGO
+# =========================================
+
+# ¿Qué es un algoritmo?
+# Un algoritmo es un conjunto ordenado y finito de pasos o instrucciones
+# que se siguen para resolver un problema o realizar una tarea específica.
+# Debe ser claro, sin ambigüedades, y conducir a un resultado en un tiempo
+# determinado. En programación, los algoritmos son la base de los programas.
+
+# Ejemplo simple (secuencial):
+Algoritmo SumarDosNumeros
+    Definir a, b, suma Como Entero
+    Escribir "Ingrese el primer número:"
+    Leer a
+    Escribir "Ingrese el segundo número:"
+    Leer b
+    suma <- a + b
+    Escribir "La suma es: ", suma
+FinAlgoritmo
+
+# -----------------------------------------
+
+# Tipos de algoritmos
+
+# 1. Secuencial (pasos en orden)
+Algoritmo AreaCuadrado
+    Definir lado, area Como Real
+    Escribir "Ingrese el lado:"
+    Leer lado
+    area <- lado * lado
+    Escribir "Área:", area
+FinAlgoritmo
+
+# 2. Condicional (decisiones)
+Algoritmo NumeroParImpar
+    Definir num Como Entero
+    Escribir "Ingrese un número:"
+    Leer num
+    Si num MOD 2 = 0 Entonces
+        Escribir "Es par"
+    SiNo
+        Escribir "Es impar"
+    FinSi
+FinAlgoritmo
+
+# 3. Iterativo (repetición)
+Algoritmo ContarHasta10
+    Definir i Como Entero
+    Para i <- 1 Hasta 10 Hacer
+        Escribir i
+    FinPara
+FinAlgoritmo
+
+# 4. Recursivo (se llama a sí mismo)
+Algoritmo Factorial
+    Definir n Como Entero
+    
+    Funcion fact(x)
+        Si x = 0 Entonces
+            Retornar 1
+        SiNo
+            Retornar x * fact(x - 1)
+        FinSi
+    FinFuncion
+
+    Escribir "Ingrese un número:"
+    Leer n
+    Escribir "Factorial:", fact(n)
+FinAlgoritmo
+
+# -----------------------------------------
+
+# Notaciones de algoritmos
+# El pseudocódigo permite representar algoritmos de forma clara,
+# similar a un lenguaje de programación pero fácil de entender.
+
+# Ejemplo de decisión múltiple:
+Algoritmo Calificacion
+    Definir nota Como Real
+    Escribir "Ingrese la nota:"
+    Leer nota
+    
+    Si nota >= 3.0 Entonces
+        Escribir "Aprobado"
+    SiNo
+        Escribir "Reprobado"
+    FinSi
+FinAlgoritmo
+
+# -----------------------------------------
+
+# Reglas de definición de algoritmos
+# Debe ser finito, preciso, tener entradas y salidas, y ser efectivo.
+
+# Ejemplo aplicando reglas:
+Algoritmo PromedioTresNumeros
+    Definir a, b, c, promedio Como Real
+    Escribir "Ingrese tres números:"
+    Leer a, b, c
+    promedio <- (a + b + c) / 3
+    Escribir "El promedio es:", promedio
+FinAlgoritmo
+
+# -----------------------------------------
+
+# Características fundamentales
+# Claridad, determinación, eficiencia y modularidad.
+
+# Ejemplo modular:
+Algoritmo CalcularCuadrado
+
+    Funcion cuadrado(x)
+        Retornar x * x
+    FinFuncion
+
+
+
+    Definir num Como Entero
+    Escribir "Ingrese número:"
+    Leer num
+    Escribir "Resultado:", cuadrado(num)
+
+FinAlgoritmo
+
+# =========================================
+# FIN DE LOS APUNTES
+# =========================================
+
+¿Que usamos para aprender algoritmos?
+Pseudocódigo
+Inicio = Círculo.
+Escribir = Escribir u Hoja.
+Leer= paralelogramo rosa.
+proceso = rectángulo.
+fin = elipse.
