@@ -24,11 +24,11 @@ else:
 	
 	
 print ("------------------------------------------------")
-print (f"| REPORTE DE CALIFICACIONES PERIODO: ", {per}, " 	|")
-print ("+------------------------------------------------+");
-print (f"|Documento; ", {doc}, "						|")
-print (f"|Nombre; ", {nom}, "							|")
-print (f"|Materia; ", {mat}, "							|")
-print (f"|Nota_Definitivo; ", {doc}, "				|")
-print (f"|", {mensaje}, ")									|")
+print (f"| REPORTE DE CALIFICACIONES PERIODO: , {per}, 	|")
+print ("+------------------------------------------------+")
+print (f"|Documento; {doc}       						|")
+print (f"|Nombre; {nom} 		    					|")
+print (f"|Materia; {mat} 			    				|")
+print (f"|Nota_Definitivo; , {doc}		    	    	|")
+print (f"| {mensaje}, ) 					    		|")
 print ("------------------------------------------------")
