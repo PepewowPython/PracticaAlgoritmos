@@ -5,7 +5,7 @@
 """
 documento = input("ingrese el documento del empleado:")
 nombre = input("ingrese el nombre del empleado:")
-salario_base = input("ingrese el salario base del empleado:")
+salario_base = float(input("ingrese el salario base del empleado:"))
 mes_nomina = input("ingrse el mes del reporte de nomina:")
 
 deduccion_salud = salario_base * .04
@@ -16,7 +16,7 @@ deducciones = deduccion_salud + deduccion_pension
 salario_neto = salario_base - deducciones
 
 comision = 0.0
-if salario_neto <- 2000000:
+if salario_neto <= 2000000:
     comision = salario_base *.125
 print (f"Reporte de nomina del mes de:{mes_nomina}")
 print (f"documento:{documento}")
