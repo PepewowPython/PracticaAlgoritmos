@@ -1,0 +1,117 @@
+=================================
+CARACTERES Y OPERADORES PSEINT
+=================================
+
+ASIGNACION
+----------
+<-      Asignar valor
+
+Ejemplo:
+x <- 10
+
+OPERADORES ARITMETICOS
+----------------------
++       Suma
+-       Resta
+*       Multiplicacion
+/       Division
+^       Potencia
+
+Ejemplos:
+a + b
+a - b
+a * b
+a / b
+a ^ 2
+
+OPERADORES RELACIONALES
+-----------------------
+=       Igual
+<>      Diferente
+<       Menor que
+>       Mayor que
+<=      Menor o igual
+>=      Mayor o igual
+
+Ejemplos:
+a = b
+a <> b
+a < b
+a > b
+a <= b
+a >= b
+
+OPERADORES LOGICOS
+------------------
+Y       AND
+O       OR
+NO      NOT
+
+Ejemplos:
+a > 0 Y b > 0
+a > 0 O b > 0
+NO(a = b)
+
+CARACTERES ESPECIALES
+---------------------
+( )
+[ ]
+,
+:
+;
+"
+'
+
+PALABRAS CLAVE
+--------------
+Proceso
+FinProceso
+
+Definir
+Como
+
+Leer
+Escribir
+
+Si
+Entonces
+Sino
+FinSi
+
+Segun
+FinSegun
+
+Para
+Hasta
+Con Paso
+FinPara
+
+Mientras
+Hacer
+FinMientras
+
+Repetir
+Hasta Que
+
+Funcion
+FinFuncion
+
+SubProceso
+FinSubProceso
+
+FUNCIONES COMUNES
+-----------------
+Raiz()
+Trunc()
+Abs()
+Sen()
+Cos()
+Tan()
+Azar()
+
+Ejemplos:
+Raiz(25)
+Trunc(5.8)
+Abs(-10)
+
+=================================
