@@ -1,10 +1,8 @@
 #@descripción: crear una lista con 10 numeros aleatorios entre 100 y 1000
-from random import randinit
-lista=[randinit(100,1001) for i in range (10)]
-
-lista2=[]
+from random import randint
+lista=[randint(100,1001) for i in range (10)]
 for i in range(10):
-    lista2.append(randinit(100,1001))
+    lista.append(randint(100,1001))
 #recorrido
 for i in range (len(lista)):
     print (f"elemento{i+1}:{lista[1]}")
