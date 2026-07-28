@@ -11,3 +11,13 @@ for i in range (len(lista)):
 print (lista[-5:])
 #los 5 primeros
 print (lista[0:5])
+print("elementos del medio",lista [3:7])
+print ("arreglo inverso: ", lista[::-1])
+
+for valor in lista:
+    if valor > 1000:
+        print (valor)
+        
+for i in range (len(lista)):
+    if lista [i]> 1000:
+        print (lista [i])
