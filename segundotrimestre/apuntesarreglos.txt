@@ -1,0 +1,247 @@
+=========================
+ARREGLOS (LISTAS) PYTHON
+=========================
+
+1. ¿QUÉ ES UNA LISTA?
+
+Una lista almacena varios datos en una sola variable.
+
+numeros = [10, 20, 30, 40]
+
+-------------------------
+2. ACCEDER A ELEMENTOS
+-------------------------
+
+numeros = [10, 20, 30, 40]
+
+print(numeros[0])   # 10
+print(numeros[2])   # 30
+print(numeros[-1])  # 40
+
+Nota: Los índices comienzan en 0.
+
+-------------------------
+3. MODIFICAR ELEMENTOS
+-------------------------
+
+numeros = [10, 20, 30]
+
+numeros[1] = 99
+
+print(numeros)
+
+Resultado:
+[10, 99, 30]
+
+-------------------------
+4. RECORRER UNA LISTA
+-------------------------
+
+Con for:
+
+numeros = [1, 2, 3, 4]
+
+for n in numeros:
+    print(n)
+
+Con índices:
+
+for i in range(len(numeros)):
+    print(numeros[i])
+
+-------------------------
+5. AGREGAR ELEMENTOS
+-------------------------
+
+append() agrega al final
+
+numeros = [1, 2, 3]
+numeros.append(4)
+
+Resultado:
+[1, 2, 3, 4]
+
+insert() agrega en una posición específica
+
+numeros.insert(1, 50)
+
+Resultado:
+[1, 50, 2, 3, 4]
+
+-------------------------
+6. ELIMINAR ELEMENTOS
+-------------------------
+
+Por valor:
+
+numeros.remove(20)
+
+Por posición:
+
+numeros.pop(2)
+
+Con del:
+
+del numeros[0]
+
+-------------------------
+7. CANTIDAD DE ELEMENTOS
+-------------------------
+
+numeros = [1, 2, 3, 4]
+
+print(len(numeros))
+
+Resultado:
+4
+
+-------------------------
+8. BUSCAR ELEMENTOS
+-------------------------
+
+numeros = [10, 20, 30]
+
+if 20 in numeros:
+    print("Existe")
+
+-------------------------
+9. SUMAR ELEMENTOS
+-------------------------
+
+numeros = [10, 20, 30]
+
+print(sum(numeros))
+
+Resultado:
+60
+
+-------------------------
+10. MAYOR Y MENOR
+-------------------------
+
+numeros = [5, 2, 8, 1]
+
+print(max(numeros))
+print(min(numeros))
+
+Resultado:
+8
+1
+
+-------------------------
+11. ORDENAR
+-------------------------
+
+Ascendente:
+
+numeros.sort()
+
+Descendente:
+
+numeros.sort(reverse=True)
+
+-------------------------
+12. LLENAR UNA LISTA
+-------------------------
+
+numeros = []
+
+for i in range(5):
+    n = int(input("Ingrese número: "))
+    numeros.append(n)
+
+print(numeros)
+
+-------------------------
+13. SUMAR UNA LISTA
+-------------------------
+
+numeros = [10, 20, 30, 40]
+
+suma = 0
+
+for n in numeros:
+    suma += n
+
+print("Suma:", suma)
+
+-------------------------
+14. PROMEDIO
+-------------------------
+
+numeros = [10, 20, 30, 40]
+
+promedio = sum(numeros) / len(numeros)
+
+print(promedio)
+
+-------------------------
+15. CONTAR PARES
+-------------------------
+
+numeros = [1, 2, 3, 4, 5, 6]
+
+contador = 0
+
+for n in numeros:
+    if n % 2 == 0:
+        contador += 1
+
+print(contador)
+
+-------------------------
+16. MATRICES
+-------------------------
+
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+print(matriz[0][1])
+
+Resultado:
+2
+
+=========================
+PREGUNTAS DE EXAMEN
+=========================
+
+¿Primer índice de una lista?
+R: 0
+
+¿Qué hace append()?
+R: Agrega un elemento al final.
+
+¿Qué hace len()?
+R: Devuelve la cantidad de elementos.
+
+¿Qué hace remove()?
+R: Elimina un elemento por valor.
+
+¿Qué hace pop()?
+R: Elimina un elemento por posición.
+
+¿Cómo buscar un dato?
+
+if dato in lista:
+
+¿Cómo recorrer una lista?
+
+for elemento in lista:
+
+=========================
+EJERCICIO COMPLETO
+=========================
+
+numeros = []
+
+for i in range(5):
+    n = int(input("Ingrese un número: "))
+    numeros.append(n)
+
+print("Lista:", numeros)
+print("Mayor:", max(numeros))
+print("Menor:", min(numeros))
+print("Suma:", sum(numeros))
+print("Promedio:", sum(numeros)/len(numeros))
