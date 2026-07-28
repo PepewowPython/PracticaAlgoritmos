@@ -17,3 +17,10 @@ print (lista, "numero de elementos: ",longitud)
 
 #eliminar un elemento
 del (lista[1])
+
+longitud = len(lista)
+print (lista, "numero de elementos: ",longitud)
+
+#actualizar el primer elemento de la lista
+lista[0]=-500
+print (lista, "numero de elementos: ",longitud)
