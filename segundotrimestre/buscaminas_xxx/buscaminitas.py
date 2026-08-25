@@ -7,6 +7,6 @@ print("juego de Buscaminas")
 filas = int(input("Ingrese el número de filas: "))
 columnas = int(input("Ingrese el número de columnas: "))
 tablero = fn.creartablero(filas, columnas)
-fn.hallarminas(tablero,0,0)
+fn.hallarminas(tablero)
 for fila in range(len(tablero)):
     print(tablero[fila])
